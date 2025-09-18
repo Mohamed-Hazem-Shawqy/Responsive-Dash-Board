@@ -29,13 +29,15 @@ Dart
 [Charts library] – for visualization
 
 ## 📂 Project Structure
+
+```plaintext
 lib/
-├── core/ # Utilities & constants
+├── core/               # Utilities & constants
 ├── feature/
-│ ├── model/ # Data models
-│ ├── manager/ # State management
-│ ├── widgets/ # Reusable UI components
-│ └── ... # Feature modules
+│   ├── model/          # Data models
+│   ├── manager/        # State management
+│   ├── widgets/        # Reusable UI components
+│   └── ...             # Feature modules
 
 ## 🎥 Demo Video
 [Responsive_dash_board.zip](https://github.com/user-attachments/files/22400412/Responsive_dash_board.zip)
