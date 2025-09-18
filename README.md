@@ -28,7 +28,7 @@ Dart
 
 [Charts library] – for visualization
 
-📂 Project Structure
+##📂 Project Structure
 lib/
 ├── core/               # Utilities & constants
 ├── feature/
