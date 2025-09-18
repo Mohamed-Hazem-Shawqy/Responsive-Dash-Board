@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:responsive_dash_board/feature/model/drawer_item_model.dart';
@@ -16,7 +15,6 @@ class DrawerItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    log('rebuild DrawerItem');
     return isselect
         ? ActiveDrawerItem(drawerItemModel: drawerItemModel)
         : InActiveDrawerItem(drawerItemModel: drawerItemModel);

@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -64,13 +63,11 @@ class _DrawerListViewState extends State<DrawerListView>
             selector: (context, value) => value.activeIndex == index,
             shouldRebuild: (previous, next) => previous != next,
             builder: (BuildContext context, isActive, Widget? child) {
-              log('rebuild consumer');
-
               return AnimatedBuilder(
                 animation: animation,
                 child: DrawerItem(
                   drawerItemModel: items[index],
-                  isselect: isActive,                                                  
+                  isselect: isActive,
                 ),
                 builder: (context, child) {
                   return Transform.translate(
@@ -86,5 +83,3 @@ class _DrawerListViewState extends State<DrawerListView>
     );
   }
 }
-
-

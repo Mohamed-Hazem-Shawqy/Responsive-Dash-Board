@@ -14,6 +14,7 @@ class CustomDrawer extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => ActiveAndInactiveItemDrawer(),
       child: Container(
+        width: MediaQuery.sizeOf(context).width * .7,
         color: Colors.white,
         child: CustomScrollView(
           slivers: [

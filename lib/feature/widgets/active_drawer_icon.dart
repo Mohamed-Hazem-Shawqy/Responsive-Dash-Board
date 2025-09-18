@@ -11,7 +11,7 @@ class ActiveDrawerItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text(drawerItemModel.title, style: AppStyle.styleBold16),
+      title: Text(drawerItemModel.title, style: AppStyle.styleBold16(context)),
 
       leading: SvgPicture.asset(drawerItemModel.image),
       trailing: Container(width: 3.27, color: Color(0xff4EB7F2)),

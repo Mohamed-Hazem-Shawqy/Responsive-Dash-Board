@@ -10,7 +10,7 @@ class InActiveDrawerItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text(drawerItemModel.title, style: AppStyle.styleMedium16),
+      title: Text(drawerItemModel.title, style: AppStyle.styleMedium16(context)),
 
       leading: SvgPicture.asset(drawerItemModel.image),
     );

@@ -11,8 +11,8 @@ final String image,title,subtitle;
   Widget build(BuildContext context) {
     return ListTile(
       leading: SvgPicture.asset(image),
-      title: Text(title,style: AppStyle.styleSemiBold16,),
-      subtitle: Text(subtitle,style: AppStyle.styleRegular12,),
+      title: Text(title,style: AppStyle.styleSemiBold16(context),),
+      subtitle: Text(subtitle,style: AppStyle.styleRegular12(context),),
     );
   }
 }
