@@ -38,5 +38,5 @@ lib/
 │   └── ...             # Feature modules
 
 ## 🎥 Demo Video
-[Download / Watch the demo](https://github.com/"C:\Users\mido\Videos\Screen Recordings\Screen Recording 2025-09-18 090833.mp4")
+[Download / Watch the demo](https://github.com/"C:/Users/mido/Videos/Screen Recordings/Screen Recording 2025-09-18 090833.mp4")
 
