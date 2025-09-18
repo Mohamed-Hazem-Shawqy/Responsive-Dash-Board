@@ -38,7 +38,7 @@ lib/
 │   ├── manager/        # State management
 │   ├── widgets/        # Reusable UI components
 │   └── ...             # Feature modules
-
+```
 ## 🎥 Demo Video
 [Responsive_dash_board.zip](https://github.com/user-attachments/files/22400412/Responsive_dash_board.zip)
 
