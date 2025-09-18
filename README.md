@@ -24,7 +24,7 @@ Flutter
 Dart
  – programming language
 
-[Provider / Cubit] – state management
+[Provider] – state management
 
 [Charts library] – for visualization
 
@@ -38,5 +38,6 @@ lib/
 │   └── ...             # Feature modules
 
 ## 🎥 Demo Video
-[Screen Recording 2025-09-18 090833.zip](https://github.com/user-attachments/files/22400195/Responsive_dashboard.zip)
+[Responsive_dash_board.zip](https://github.com/user-attachments/files/22400412/Responsive_dash_board.zip)
+
 
