@@ -38,5 +38,5 @@ lib/
 │   └── ...             # Feature modules
 
 ## 🎥 Demo Video
-[Screen Recording 2025-09-18 090833.zip](https://github.com/user-attachments/files/22400195/Screen.Recording.2025-09-18.090833.zip)
+[Screen Recording 2025-09-18 090833.zip](https://github.com/user-attachments/files/22400195/Responsive_dashboard.zip)
 
